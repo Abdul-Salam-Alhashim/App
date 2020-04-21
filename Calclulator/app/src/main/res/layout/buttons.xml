@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b"
+
+
+    >
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:rowCount="6">
+
+        <Button
+            android:id="@+id/btuClear"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="c"
+            android:textColor="@color/w"
+            android:background="@color/or"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:id="@+id/btuOpen"
+            android:textColor="@color/w"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:text="("
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/or"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/btuClose"
+            android:textColor="@color/w"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:text=")"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/or"
+            android:textSize="25sp" />
+
+
+
+        <Button
+            android:id="@+id/btuDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:text="÷"
+            android:textColor="@color/w"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/or"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu7"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="7"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu8"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:text="8"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu9"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:text="9"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btuMul"
+            android:textColor="@color/w"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:text="×"
+            android:background="@color/or"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="4"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:text="5"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:text="6"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btuMinus"
+            android:textColor="@color/w"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:text="-"
+            android:background="@color/or"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="1"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:text="2"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btu3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:text="3"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:background="@color/w"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btuPlus"
+            android:textColor="@color/w"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:text="+"
+            android:background="@color/or"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/btu0"
+            android:layout_columnWeight="1"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+
+            android:layout_columnSpan="1"
+            android:textSize="25sp"
+            android:layout_row="5"
+            android:background="@color/w"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:layout_column="1"/>
+
+        <Button
+            android:id="@+id/btuDot"
+            android:layout_columnWeight="1"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:text="."
+            android:textSize="25sp"
+            android:layout_row="5"
+            android:background="@color/w"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:layout_column="0"/>
+        <Button
+            android:id="@+id/btuEquals"
+            android:textColor="@color/w"
+            android:layout_columnWeight="1"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:text="="
+            android:textSize="25sp"
+            android:layout_row="5"
+            android:background="@color/or"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:layout_column="3"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:scaleType="center"
+            android:id="@+id/btuBack"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="1pt"
+            android:text=""
+            android:background="@color/w"
+            android:src="@drawable/ic_backspace_black_24dp"
+            android:textSize="25sp" />
+
+
+    </GridLayout>
+
+
+</RelativeLayout>
